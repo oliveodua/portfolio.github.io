@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive Tech</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/a4250df899.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Oxanium:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+<body onload="myFunction()" style="margin: 0;">
+
+    <!-- Loader -->
+    <section class="myLoader" id="loader">
+        <div class="loader" >
+            <!-- <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:9;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span> -->
+    <img src="Logo_2-removebg-preview.png" alt="">
+        </div>
+    </section>
+    
+   <div id="myDiv" style="display: none;">
+    <!-- Header --> 
+   
+<header>
+    <a href="#" class="logo"><img src="Logo_2-removebg-preview.png" alt="" style="width: 200%; height: 100px;"></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navlist">
+
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="services.php">Services</a></li>
+        <li><a href="portfolio.php">Portfolio</a></li>
+        <li><a href="contact.php">Contact</a></li>
+
+    </ul>
+
+    <div class="top-btn">
+        <a href="contact.php" class="h-btn">Contact Me</a>
+    </div>
+
+</header>
+    
+    <!-- hero -->
+    <section class="hero" id="home">
+        <div class="main-content">
+            <!-- <h4>Welcome to my portfolio!</h4> -->
+            <h2>Welcome to <span>Olive Tech</span></h2>
+            <p>I specialize in creating responsive and user-friendly websites that seamlessly blend form and function. <br>
+            Explore my portfolio to witness the fusion of design aesthetics and cutting-edge technology, reflecting my commitment to
+            delivering innovative solutions that exceed expectations.</p>
+    
+            <div class="social">
+                <a href=""><i class="fa-brands fa-facebook fa-beat-fade" style="color: #3e81f4;"></i></a>
+                <a href=""><i class="fa-brands fa-square-whatsapp fa-beat-fade" style="color: #4c85e6;"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram fa-beat-fade" style="color: #3c77dd;"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter fa-beat-fade" style="color: #4380ea;"></i></a>
+            </div>
+    
+            
+    
+        </div>
+    
+    </section>
+    
+    
+    
+    
+    
+    <div class="footer">
+
+        <!-- <img src="Logo_2-removebg-preview.png" alt="" style="width: 15%; height: 70px;"> -->
+
+        
+
+        <div class="copyright">
+            <p>2024 Olive Odua, All Rights Reserved.</p>
+        </div>
+    
+        <a href="#home ">
+            <i class="fa-solid fa-arrow-up fa-bounce"></i>
+            <!-- <i class="ri-arrow-up-line"></i> -->
+        </a>
+    </div>
+   </div>
+
+    <!-- Javascript Links -->
+    <script src="js.js"></script>
+    <script>
+       var myVar;
+
+
+        function showPage() {
+
+                document.getElementById("myDiv").style.display = "block";
+                document.getElementById("loader").style.display = "none";
+            }
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+
+       
+    </script>
+</body>
+</html>
